@@ -1,0 +1,17 @@
+{
+  "name": "grpc-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start" : "node server/server.js"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "0.5.5",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "grpc": "1.24.4",
+    "hbs": "4.1.1",
+    "uuid": "8.3.1"
+  }
+}
